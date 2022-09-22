@@ -2,7 +2,7 @@
 
 set -e
 
-if [ $(uname) == "Linux" ]; then
+if [ $(uname) = "Linux" ]; then
 	sudo apt-get -y update
 	sudo apt-get -y upgrade
 
