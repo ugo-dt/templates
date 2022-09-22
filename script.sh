@@ -7,13 +7,13 @@ if [ $(uname) = "Linux" ]; then
 	sudo apt-get -y upgrade
 
 	sudo apt-get install -y clang \
-							git \
-							curl \
-            	            make \
-							python3 \
-							pip \
-							vim \
-							zsh
+                                git \
+				curl \
+				make \
+				python3 \
+				pip \
+				vim \
+				zsh
 	# Norminette
 	python3 -m pip install --upgrade pip setuptools
 	python3 -m pip install norminette
